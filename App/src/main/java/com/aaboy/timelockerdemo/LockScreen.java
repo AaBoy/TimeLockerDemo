@@ -27,7 +27,7 @@ public class LockScreen extends Activity implements ActionBar.TabListener {
      * loaded fragment in memory. If this becomes too memory intensive, it
      * may be best to switch to a
      * {@link android.support.v13.app.FragmentStatePagerAdapter}.
-     */
+   b  */
     SectionsPagerAdapter mSectionsPagerAdapter;
 
     /**
