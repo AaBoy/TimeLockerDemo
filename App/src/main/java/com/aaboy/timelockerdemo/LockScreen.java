@@ -78,7 +78,7 @@ public class LockScreen extends Activity implements ActionBar.TabListener {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        
+
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.lock_screen, menu);
         return true;
