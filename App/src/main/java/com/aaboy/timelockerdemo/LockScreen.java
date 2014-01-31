@@ -140,7 +140,7 @@ public class LockScreen extends Activity implements ActionBar.TabListener {
             Locale l = Locale.getDefault();
             switch (position) {
                 case 0:
-                    return getString(R.string.title_section1).toUpperCase(l);
+                    return "Koga";
                 case 1:
                     return getString(R.string.title_section2).toUpperCase(l);
                 case 2:
@@ -180,7 +180,7 @@ public class LockScreen extends Activity implements ActionBar.TabListener {
                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_lock_screen, container, false);
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)));
+            textView.setText("Tukaj dodamo v view elemente");
             return rootView;
         }
     }
